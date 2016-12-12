@@ -5,9 +5,9 @@ var nodemailer= require('nodemailer');
 var smtpTransport = require('nodemailer-smtp-transport');
 
 var ssh=new SSH({
-    host:'192.168.1.110',
-    user:'linzhipeng',
-    pass:'zhipeng20160620'
+    host:':'******'',
+    user:':'******'',
+    pass:'******'
 });
 
 function dateFormat(dateStr){
@@ -62,8 +62,8 @@ var config={
             secure: true,
             port:465,
             auth: {
-                user: 'zhipeng.lin@ifchange.com',
-                pass: 'Lin2016'
+                user: '******',
+                pass: '******'
             }
         },
         to: [
